@@ -1,0 +1,23 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    &__forgetPassword {
+        font-size: .9rem;
+        cursor: pointer;
+
+        &:hover {
+            color: #337ab7
+        }
+    }
+    &__registerLink {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            color: #337ab7
+        }
+    }
+}

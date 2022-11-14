@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Staatliches", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+}
+.sessionPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.sessionPage__card {
+  background: url("../assets/menubg.png") no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  flex-wrap: 1;
+  box-shadow: 0px 0px 5px 5px #000;
+}
+.sessionPage__card__title {
+  font-family: "Staatliches";
+  text-transform: uppercase;
+  color: red;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.lobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.lobby__userMenu {
+  position: absolute;
+  top: -30px;
+  right: 10px;
+  background: url("../assets/cartel.png") no-repeat;
+  background-size: contain;
+  height: 180px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.lobby__userMenu svg {
+  color: #000;
+  font-size: 2rem;
+  transform: translateY(20px) skew(5deg);
+}
+.lobby__userMenu h3 {
+  color: #000;
+  font-size: 1.2rem;
+  transform: translateY(20px) skew(5deg);
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.loginForm__forgetPassword {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.loginForm__forgetPassword:hover {
+  color: #337ab7;
+}
+.loginForm__registerLink {
+  text-decoration: none;
+  color: #fff;
+}
+.loginForm__registerLink:hover {
+  color: #337ab7;
+}
+
+.lobbyOptions {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+.lobbyOptions__optionCard {
+  background: url("../assets/menubg.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 5px #000;
+  border-radius: 15px;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lobbyOptions__optionCard svg {
+  font-size: 80px;
+  color: #000;
+}
+.lobbyOptions__optionCard p {
+  font-size: 1rem;
+  color: #000;
+}
+
+.customInput {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+.customInput__fistIcon {
+  height: 30px;
+  width: 30px;
+  color: #000;
+}
+.customInput__input {
+  height: 25px;
+  width: 65%;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 15px;
+  padding-left: 10px;
+  border: 1px solid #000;
+}
+.customInput__input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px 2px #000;
+}
+.customInput__input::-moz-placeholder {
+  color: #cfcfcf;
+}
+.customInput__input:-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.customInput__input::placeholder {
+  color: #cfcfcf;
+}
+
+.submitButton {
+  height: 40px;
+  width: 85%;
+  background-color: #262626;
+  border-radius: 15px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
