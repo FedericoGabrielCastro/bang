@@ -1,6 +1,12 @@
 @import "./LoginForm/LoginForm";
 @import "./RegisterForm/RegisterForm";
 @import "./LobbyOptions/LobbyOptions";
+@import "./Rooms/Rooms";
+@import "./StatusPlayersCard/StatusPlayersCard";
+@import "./Deck/Deck";
+@import "./OwnPlayer/OwnPlayer";
+@import "./CartonBox/CartonBox";
+@import "./CharacterCard/CharacterCard";
 
 .customInput {
     display: flex;
@@ -30,7 +36,7 @@
         }
 
         &::placeholder {
-            color: #cfcfcf
+            color: #cfcfcf;
         }
     }
 }

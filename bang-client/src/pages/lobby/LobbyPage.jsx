@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom"
-import { BiLogOut } from "react-icons/bi"
+import { Outlet } from "react-router-dom";
+import { BiLogOut } from "react-icons/bi";
 
 export const LobbyPage = () => {
     return (
@@ -10,5 +10,5 @@ export const LobbyPage = () => {
             </div>
             <Outlet />
         </div>
-    )
-}
+    );
+};

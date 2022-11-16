@@ -5,11 +5,11 @@
     align-items: center;
 
     &__forgetPassword {
-        font-size: .9rem;
+        font-size: 0.9rem;
         cursor: pointer;
 
         &:hover {
-            color: #337ab7
+            color: #337ab7;
         }
     }
     &__registerLink {
@@ -17,7 +17,7 @@
         color: #fff;
 
         &:hover {
-            color: #337ab7
+            color: #337ab7;
         }
     }
 }

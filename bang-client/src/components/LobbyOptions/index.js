@@ -1,3 +1,3 @@
-import { LobbyOptions } from "./LobbyOptions";
+import { LobbyOptions } from './LobbyOptions';
 
-export { LobbyOptions }
+export { LobbyOptions };

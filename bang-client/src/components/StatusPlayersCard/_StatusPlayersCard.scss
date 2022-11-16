@@ -1,0 +1,64 @@
+.statusPlayer {
+    height: 70px;
+    width: 180px;
+    border: 4px double #000;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    color: #000;
+
+    &__time {
+        position: absolute;
+        align-self: flex-end;
+        margin-right: 5px;
+    }
+
+    &__top {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        margin-left: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+
+        &__role {
+            background: url(/src/assets/role-icons.png);
+            background-position: 150px 0px;
+            background-size: cover;
+            height: 50px;
+            width: 50px;
+            transform: scale(0.7);
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        margin: 8px;
+
+        &__bullets {
+            display: flex;
+
+            &__bullet {
+                background: url(/src/assets/bullet.png);
+                background-position: 0px 0px;
+                background-size: cover;
+                height: 10px;
+                width: 25px;
+                transform: rotate(-90deg);
+            }
+        }
+
+        &__cards {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 1rem;
+        }
+    }
+}

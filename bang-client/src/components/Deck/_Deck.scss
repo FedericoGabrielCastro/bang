@@ -1,0 +1,38 @@
+.deckbox {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    // border: 4px double #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &__deck {
+        background: url("../assets/cardback.png") no-repeat;
+        background-size: contain;
+        background-color: #fff;
+        height: 180px;
+        width: 115px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 5px 5px 0 0 #fff;
+        transform: scale(0.7);
+
+        &__lenght {
+            font-size: 2rem;
+        }
+    }
+
+    &__cardpit {
+        background: url("../assets/cardback.png") no-repeat;
+        background-size: contain;
+        transform: scale(0.7);
+        background-color: #fff;
+        height: 180px;
+        width: 115px;
+        border-radius: 15px;
+    }
+}
